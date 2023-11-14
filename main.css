@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.shape{
+    
+    clip-path: ellipse(72% 100% at center top);
+}
+#popupnavbar{
+    
+    position: sticky;
+    color: #ffffff;
+    z-index: 100;
+    transition:top 1s;
+    
+}
